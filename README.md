@@ -2,10 +2,10 @@
 26-10-2019
 
 ### Project Title
-Replace the Project Title
+Programming for Data Science with Python
 
 ### Description
-Describe what your project is about and what it does
+Udacity nanodegree
 
 ### Files used
 Include the files used
