@@ -224,10 +224,14 @@ def user_stats(df, city):
     start_time = time.time()
 
     # Display counts of user types
-    user_types = df['User Type'].value_counts().to_string()
+    try:
+	user_types = df['User Type'].value_counts().to_string()
     print("Distribution for user types:")
     print(user_types)
-
+	except:
+	    print("We're sorry! There is no data of type {}."
+              .format(city.title()))
+			  
     # Display counts of gender
     try:
         gender_distribution = df['Gender'].value_counts().to_string()
