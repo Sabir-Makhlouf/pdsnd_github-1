@@ -8,8 +8,10 @@ Programming for Data Science with Python
 Udacity nanodegree
 
 ### Files used
-Include the files used
+.gitgnore
+readme.md
+bikeshare.py
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+Sabir Makhlouff
+www.sabirmakhlouf.com
