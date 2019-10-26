@@ -49,7 +49,7 @@ def get_filters():
     """
 
     print("\n\nLet's explore some US bikeshare data!\n")
-
+print("\n\nwarning regardingWashington's lack of user data!\n")
     print("Type end at any time if you would like to exit the program.\n")
 
     while True:
